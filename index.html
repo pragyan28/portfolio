@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="X-UA-Compatible">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <script src="https://kit.fontawesome.com/f1c474f447.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="vanta-bg" style="width: 100vw; height: 100vh;">
+        <div class="header-text">
+            <p>Sophomore@IITBOMBAY</p>
+            <h1>Hi, I'm <span>Pragyan </span> <br>Paramita Behera from Odisha</h1>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p> I'm an Electrical Engineering student at IIT Bombay with a strong passion for app and web
+                        development. I thrive on learning new technologies and exploring areas I'm unfamiliar with,
+                        constantly expanding my knowledge and skill set. Whether it's developing innovative applications
+                        or diving into the latest tech trends, I'm always eager to take on new challenges and grow as a
+                        developer.
+
+                    </p>
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML,CSS,Javascript</span><br>Basic Web Development</li>
+                            <li><span>Python</span><br>Libraries: Numpy, Matplotlib</li>
+                            <li><span>C/C++</span><br>Competitive Programming</li>
+                            <li><span>AutoCAD</span><br>2D, 3D Visualisation</li>
+                            <li><span>Latex</span><br>Resume Building</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-Present</span><br>Electrical Engineering at IITB</li>
+                            <li><span>2021-2023</span><br>SAI International School BBSR</li>
+                            <li><span>2021</span><br>DAV Public School Cspur BBSR</li>
+                            <!-- <li><span>Latex</span><br>Resume Building</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project">
+        <div class="container">
+            <div class="project-heading">
+                <span>Let's See My Work</span>
+                <h3>My Projects</h3>
+            </div>
+
+            <ul class="project-filter">
+                <li class="list project-filter-active" data-filter="all">All</li>
+                <li class="list" data-filter="app">Application</li>
+                <li class="list" data-filter="design">App Designs</li>
+                <li class="list" data-filter="website">Website Design</li>
+                <li class="list" data-filter="ai">AI</li>
+            </ul>
+            <div class="project-container">
+                <a href="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" class="project-box app"data-lightbox="work">
+                    <img src="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" alt="work">
+                </a>
+                <a href="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" class="project-box web" data-lightbox="work">
+                    <img src="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" alt="work">
+                </a>
+                <a href="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" class="project-box design"data-lightbox="work">
+                    <img src="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" alt="work">
+                </a>
+                <a href="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" class="project-box ai"data-lightbox="work">
+                    <img src="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" alt="work">
+                </a>
+                <a href="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" class="project-box"data-lightbox="work">
+                    <img src="images/WhatsApp Image 2024-06-14 at 22.07.28_8859e3f0.jpg" alt="work">
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i></i>ria2862005@gmail.com</p>
+
+
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Pragyan. Made with <i class="fa-solid fa-heart"></i> </p>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link")
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyZPiPnC9bo8RhfUm4hg_SlgJeeysxbr08PdTmDvqWxmV4mqEU75VYjDL_5NkiG51xq/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://unpkg.com/vanta/dist/vanta.net.min.js"></script>
+        <script>
+            VANTA.NET({
+                el: "#vanta-bg",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0xff3e3e,
+                backgroundColor: 0x0f0f0f
+            });
+        </script>
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script type="text/javascript">
+
+            $(document).on('click', 'project-filter li', function () {
+                $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active')
+            });
+            $(document).ready(function () {
+                $('.list').click(function () {
+                    const value = $(this).attr('data-filter');
+                    if (value == 'all') {
+                        $('.project-box').show('1000');
+                    }
+                    else {
+                        $('.project-box').not('.' + value).hide('1000');
+                        $('.project-box').filter('.' + value).show('1000');
+                    }
+                });
+            });
+
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"
+            integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="lightbox.min.map"></script>
+</body>
+
+</html>
